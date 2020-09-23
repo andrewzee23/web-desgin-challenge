@@ -88,6 +88,8 @@ body {
 /* media queries */
 
 @media (max-width: 990px) {
+
+
   /* landing page */
   .content-wrapper-landing {
     display: grid;
@@ -106,9 +108,7 @@ body {
   }
   /*comparison page  */
 
-  .container {
-    margin: 0;
-  }
+  
   .container h1 {
     font-size: 36px;
   }
@@ -142,9 +142,6 @@ body {
     margin: 0%;
   }
 
-  .container {
-    margin: 0%;
-  }
 
   .data-table {
     margin: 0%;

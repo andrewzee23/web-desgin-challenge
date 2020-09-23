@@ -1,0 +1,160 @@
+/* master styles */
+body {
+  background-color: gray;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* landing page */
+.content-wrapper-landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-content-wrapper-landing {
+  background-color: white;
+  margin: 3%;
+  color: black;
+}
+
+.profile-image-wrapper-landing {
+  background-color: white;
+  margin: 3%;
+  color: black;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pictures img {
+  width: 90%;
+}
+
+.profile-content-wrapper-landing img {
+  width: 65%;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/* comparison page */
+
+.container {
+  background-color: white;
+  margin-top: 3%;
+  margin: auto%;
+
+}
+
+/* visualization pages */
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper {
+  background-color: white;
+  margin: 3%;
+}
+
+.profile-content-wrapper {
+  background-color:white;
+  margin: 3%;
+}
+
+.profile-image-wrapper img {
+  width: 85%;
+}
+
+/* data page */
+.data-table {
+  margin: 3%;
+  background-color: white;
+}
+
+/* nav bar */
+
+.navbar-expand-lg {
+  background-color: white;
+}
+
+.navbar-expand-lg a {
+  color: black;
+}
+
+/* media queries */
+
+@media (max-width: 990px) {
+  /* landing page */
+  .content-wrapper-landing {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* visual pages */
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*comparison page  */
+
+  .container {
+    margin: 0;
+  }
+  .container h1 {
+    font-size: 36px;
+  }
+  /* nav bar  */
+  .navbar-toggler {
+    background-color: grey;
+
+  }
+
+  .navbar-expand-lg {
+    background-color: lightcoral;
+  }
+
+  .navbar-expand-lg a {
+    color: black;
+  }
+
+  .navbar-toggler span {
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    height: 4px;
+    width: 20px;
+  }
+
+  .profile-content-wrapper-landing {
+    margin: 0%;
+  }
+  
+  .profile-image-wrapper-landing {
+    margin: 0%;
+  }
+
+  .container {
+    margin: 0%;
+  }
+
+  .data-table {
+    margin: 0%;
+  }
+
+  .profile-image-wrapper {
+    margin: 0%;
+  }
+
+  .profile-content-wrapper {
+    margin: 0%;
+  }
+}

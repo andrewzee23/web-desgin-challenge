@@ -41,12 +41,18 @@ body {
 }
 
 /* comparison page */
-
-.container {
+.comparisons {
   background-color: white;
-  margin-top: 3%;
-  margin: auto%;
+  margin: 3%;
+}
 
+.page-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.page-content h5 {
+  text-align: center;
 }
 
 /* visualization pages */
@@ -107,9 +113,11 @@ body {
     grid-template-columns: 1fr;
   }
   /*comparison page  */
+  .comparisons {
+    margin: 0;
+  }
 
-  
-  .container h1 {
+  .comparisons h1 {
     font-size: 36px;
   }
   /* nav bar  */
